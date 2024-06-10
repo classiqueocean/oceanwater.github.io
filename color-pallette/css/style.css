@@ -1,0 +1,41 @@
+#p1-heading {
+    text-align:center;
+    font-style: italic;
+}
+#p1-c1 {
+    background-color: #4e3b17;
+    color: white;
+    font-family: cursive;
+    text-align:center;
+    padding: 24px;
+
+}
+#p1-c2 {
+    text-align: center;
+    font-style:italic;
+    background-color: #ff8a5e;
+    color: white;
+    font-family: cursive;
+    padding: 24px;
+    
+}
+#p1-c3 {
+    text-align:center;
+    font-style:italic;
+    background-color: #004738;
+    color: white;
+    font-family: cursive;
+    padding: 24px;
+}
+#p2-heading {
+    text-align:center;
+    font-style: italic;
+}
+#p2-c1 {
+    background-color:#EEDA93;
+    color: white;
+    font-family: cursive;
+    text-align:center;
+    padding: 24px;
+
+}
