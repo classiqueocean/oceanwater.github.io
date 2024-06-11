@@ -39,3 +39,38 @@
     padding: 24px;
 
 }
+#p2-c2 {
+    background-color:#00D3FF;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c3 {
+    background-color:#FF94B0;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c1 {
+    background-color: #CC9CC8;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c2 {
+    background-color: #241823;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3 {
+    background-color: #422740;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
