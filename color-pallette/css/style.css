@@ -67,6 +67,10 @@
     text-align: center;
     padding: 24px;
 }
+#p3-heading {
+    text-align:center;
+    font-style: italic;
+}
 #p3-c3 {
     background-color: #422740;
     color: white;
