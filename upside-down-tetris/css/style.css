@@ -33,3 +33,15 @@ border-color: palevioletred;
     background-color:#00C8A7 ;
     border-color:#008F74 ;
 }
+.red {
+    background-color: lightcoral;
+    border-color: red;
+}
+.yellow {
+    background-color: yellow;
+    border-color: yellowgreen; 
+}
+.light-blue {
+    background-color: aqua;
+    border-color: skyblue;
+}
