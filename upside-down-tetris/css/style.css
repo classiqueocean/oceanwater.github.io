@@ -45,3 +45,32 @@ border-color: palevioletred;
     background-color: aqua;
     border-color: skyblue;
 }
+.lighter-orange {
+    background-color:#FFBB54 ;
+    border-color:#FF7E5B ;
+}
+.dark-pink {
+    background-color: #DE4A70;
+    border-color:#A12D81 ;
+}
+.burnt-orange {
+    background-color: #BA4534;
+    border-color: #7E0807;
+}
+.off-white {
+    background-color: #FFFADE;
+    border-color: #E8D5B5;
+}
+.brown {
+    background-color: #BC915A;
+    border-color:#845F2A ;
+}
+.dark-green {
+    background-color: #498846;
+    border-color: #667B30;
+}
+.pink {
+    background-color:#FFC0B6;
+    border-color:#FF8981 ;
+ 
+}
