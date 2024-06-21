@@ -1,0 +1,128 @@
+* {
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background: radial-gradient(at top left, rgb(136, 127, 220), rgb(146, 206, 234));
+}
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    ;
+}
+header {
+   
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+header a {
+text-decoration: none;
+}
+header #me {
+    color: #111
+}
+header #tube {
+    color:#fff;
+    background-color: rgb(78, 84, 186);
+    padding: 4px;
+    border-radius: 12px;
+    font-family:'Gill Sans',
+}
+aside {
+    grid-area: sidebar;
+
+}
+aside ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #eb96e8aa;
+}
+aside ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+    transition:
+    background-color 0.5s,
+    border-radius 0.5s
+    ;
+
+}
+aside ul a:hover {
+    background-color: rgb(201, 178, 232);
+    border-radius: 12px;
+}
+#content {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.metube-item .thumbnail {
+    aspect-ratio: 16 / 9;
+    
+}
+.metube-item h4 {
+    margin: 8px
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    &:hover {
+    text-decoration: underline;
+    }
+}
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+.metube-item .channel {
+    margin-bottom: 4px;
+}
+.metube-item img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+}
+.metube-item video{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    background-color: white;
+    padding: 10px 0px;
+    margin: 0px auto;
+    border-radius: 10px;
+    justify-content: center;
+    p{
+        color: #888;
+        margin: 0px;
+        padding-left: 10px;
+    }
+}
