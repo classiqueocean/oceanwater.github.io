@@ -56,7 +56,7 @@ img {
 
 #main-div {
     display: grid;
-    grid-template-columns: 1fr 400px 1fr;
+    grid-template-columns: 200px 70% 1fr;
     gap:40px
 }
 
