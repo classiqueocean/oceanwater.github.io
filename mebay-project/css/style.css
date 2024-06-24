@@ -1,0 +1,119 @@
+img {
+    width: 100%;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#header-1 {
+    display: flex;
+    font-family:system-ui, -apple-system, BlinkMacSystemFon, sans-serif;
+    background-color:#b197fc;
+    width: max-content;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border-style: dotted;
+    margin-bottom: 25px;
+}
+
+#top-page {
+    display: flex;
+    
+}
+
+#me {
+    color: aliceblue;
+    font-style: italic;
+}
+
+.searchbar {
+    background-color: rgb(248, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    width:80%;
+    border-radius: 10px;
+    padding-left: 15px;
+    #category-box{
+        border-left: 1px solid black;
+        padding: 0px 25px 0px 10px;
+    }
+}
+#search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    margin: 0px auto;
+    width: 80%;
+
+}
+
+#main-div {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    gap:40px
+}
+
+#shipping-returns {
+    display: flex;
+    gap: 15px;
+    .shipping{
+        background: lightgrey;
+    }
+    
+}
+
+#seller-info {
+    display: flex;
+    #logo {
+        width:100px;
+        height:50px;
+    }
+    gap: 15px;
+    text-decoration: underline;
+}
+.info{
+    &:hover {
+        color: blueviolet;
+    }
+}
+
+#price {
+    display: flex;
+    gap: 10px;
+    #price-detail{
+        font-size: 12px;
+        padding-top: 15px;
+    }
+}
+    #afterpay {
+        font-size: 12px;
+        color: grey;
+        
+    }
+#condition {
+    background-color: #6e44ec;
+    border: solid black;
+    color: aliceblue;
+    text-decoration: underline;
+    margin: 10px 0px;
+}
+#size {
+    display: flex;
+    gap:15px;
+    align-items: center;
+    #sizze {
+        margin: 0px;
+    }
+  
+}
+   
+
+
+
