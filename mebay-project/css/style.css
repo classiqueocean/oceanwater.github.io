@@ -69,7 +69,7 @@ img {
 
 #main-div {
     display: grid;
-    grid-template-columns: 100px 80% 1fr;
+    grid-template-columns: 100px 65% 1fr;
     gap:40px
 }
 
@@ -219,7 +219,6 @@ img {
     margin-top: 35px;
 }
 #star-icon {
-    background-color: rgba(166, 163, 163, 0.576);
     padding-bottom: 0px;
     padding-top: 5px;
 }
@@ -246,6 +245,19 @@ img {
 }
 #money-back {
     margin-top: 40px;
+}
+#description {
+    font-size: larger;
+}
+#describe-sec {
+   
+    margin-top: 25px;
+}
+#size-chart {
+    margin-top: 10px;
+    width: 400px;
+  margin: 10px auto 0;
+    
 }
    
 
