@@ -12,20 +12,54 @@
 .card-style-2 {
     background-color: white;
     border-radius: 24px;
+    padding: 24px;
+    width:350px;
+    margin-top: 24px;
     img{
+        display: block;
         width: 200px;
         border-radius: 50%;
+        margin-top: 24px;
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
         
 
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
     }
 }
 
 .animagram-header {
     display: flex;
+    align-items: center;
     .brand-name {
-        margin-left: 50%;
+        margin-left: auto;
         font-size: 30px;
+    
     }
 }
+
+.animagram-footer {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+#animagram-card-3 {
+    margin: 40px;
+}
+
+
 
 
