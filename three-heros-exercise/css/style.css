@@ -18,7 +18,7 @@ body {
     justify-content: center;
     padding-bottom: 250px;
     h1{
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         font-size: 80px;
         color: aliceblue;
         
@@ -26,17 +26,17 @@ body {
 }
 
 #inclusive {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 24px;
-    margin-left: 50px;
+    margin-left: 75px;
     color: aliceblue;
     text-decoration: underline;
 }
 
 #book {
-    margin-top: 24px;
+    margin-top: 10px;
     margin-left: 5px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: #559cdb99;
     text-decoration: underline;
     padding: 5px;
