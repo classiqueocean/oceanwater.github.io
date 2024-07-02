@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Three Hero Exercise</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+    </head>
+    <body>
+        <div>
+            <div id="back">
+                <a href="index.html-2" id="home">Back</a>
+            </div>
+
+            <div id="header-2"> 
+                <h1 id="title-3"><i>Create Memories To Last Lifetimes.</i></h1>
+                <a href="index.html-2">
+                    <i id="social-media">Follow Us:</i>
+                    <i class="fa-brands fa-square-instagram fa-lg" style="color: #b87e19;"></i>
+                    <i class="fa-brands fa-facebook-f fa-lg" style="color: #b87e19;"></i>
+                    <i class="fa-brands fa-twitter fa-lg" style="color: #b87e19;"></i>
+                </a>
+            </div>
+
+        <div id=hero-3>
+            <div id="content-3">
+                <div id="sandals-ja">
+                    
+                </div>
+                <div id="buttons-3">
+                    <a href="index.html-2" id="back">Back</a>
+                    <a href="index.html-2" id="next">Next</a> 
+                </div>
+
+                <div id="layout">
+                    <h1><i>Sandal's Jamaica Romance & Spa Getaway Resort Photo Gallery.</i>
+                    </h1>
+                    <i id="adventure">Join The Adventure.</i>
+                    <div class="basic-grid-gallery">
+                        <img src="images/campfire.jpg" alt="campfire">
+                        <img src="images/dolphins.jpg" alt="dolphins">
+                        <img src="images/zipline.webp" alt="zipline">
+                        <img src="images/massage.jpg" alt="massage">
+                        <img src="images/Jamaica-Spanish-Town-JhenelleHudson-GettyImages-1296331069-RFC.jpg"
+                        alt="the beach">
+                        <img src="images/poolside.webp" alt="poolside">
+                        <img src="images/waterfall.jpg" alt="waterfall">
+                        <img src="images/rafting.webp" alt="rafting">
+                        <img src="images/jafood.webp" alt="food">
+                        <img src="images/caribbean-food-blog.webp" alt="drinkfood">
+                        <img src="images/bar.jpeg" alt="bar">
+                        <img src="images/drinks-blueskies-1.jpg" alt="drink">
+                        <img src="images/drink.jpg" alt="margarita">
+                        <img src="images/heart.jpg" alt="heart resort">
+                    </div>
+                </div>
+           
+            </div>
+           
+        </div>
+
+      
+    </div>
+        
+    </body>
+</html>

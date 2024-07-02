@@ -57,3 +57,149 @@ body {
      0px 0px 10px rgb(168, 141, 43);
      color: aliceblue;
 }
+
+#hero-2 {
+    background-image: url(../images/sandals.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#header {
+    background: linear-gradient(55deg, #00000099, #ffff0088, #00800099);
+    padding-top: 10px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    #inclusivee {
+        font-size: 16px;
+        color: #bd841b;
+        text-decoration: underline;
+    }
+}
+
+#learn-more {
+    color: #bd841b;
+    background-color: #ffffff;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#back {
+    background-color: rgba(113, 247, 202, 0.314);
+    #home {
+        color: #bd841b;
+        padding-left: 25px;
+        background-color: #bd841b;
+        padding: 5px;
+        box-shadow: inset 0px 0px 10px rgb(237, 188, 14),
+     0px 0px 10px rgb(168, 141, 43);
+     color: aliceblue;
+    }
+}
+
+#content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    #sandals-ja {
+        color: #ffffff;
+        font-size: 40px;
+        margin-top: 265px;
+        background-color: rgba(39, 130, 99, 0.588);
+    }
+
+    #buttons-2  {
+        margin-top: 250px;
+        display: flex;
+        gap: 50px;   
+    }
+    #buttons-2 a {
+        background-color: #bd841b;
+        padding: 20px;
+        box-shadow: inset 0px 0px 10px rgb(237, 188, 14),
+     0px 0px 10px rgb(168, 141, 43);
+     color: aliceblue;
+    }
+}
+
+#header-2 {
+    background-image: url(../images/jamaica-peacesign.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 25px;
+    color: #ffffff;
+    #title-3 {
+        margin-top: 300px;
+        font-size: 48px;
+        background-color: #9e999955;
+        text-decoration: underline;
+    }
+
+    #social-media  {
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px; /* new */
+
+    padding: 24px;
+    
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+#buttons-3 {
+    display: flex;
+    justify-content: space-between;
+    #back {
+        margin-left: 25px;
+        margin-top: 25px;
+        background-color: #bd841b;
+        padding: 10px;
+        box-shadow: inset 0px 0px 10px rgb(237, 188, 14),
+     0px 0px 10px rgb(168, 141, 43);
+     color: aliceblue;
+    }
+
+    #next {
+        margin-right: 25px;
+        margin-top: 25px;
+        background-color: #bd841b;
+        padding: 10px;
+        box-shadow: inset 0px 0px 10px rgb(237, 188, 14),
+     0px 0px 10px rgb(168, 141, 43);
+     color: aliceblue;
+    }
+ 
+}
+
+#adventure {
+    text-decoration: underline;
+}

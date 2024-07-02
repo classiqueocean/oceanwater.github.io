@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Three Hero Exercise</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <div id="back">
+                <a href="index.html" id="home">Back To Homepage</a>
+            </div>
+
+            <div id="header"> <h1>All Inclusive Hotels & Resorts</h1>
+                <a href="index.html-2">
+                    <i id="inclusivee">20% Off Drink Passes & Resort Attractions</i>
+                    <i id="learn-more">Learn More.</i>
+                </a>
+            </div>
+
+        <div id=hero-2>
+            <div id="content-2">
+                <div id="sandals-ja">
+                    Sandal's Jamaica Romance & Spa Getaway Resort.
+                </div>
+                <div id="buttons-2">
+                    <a href="index.html-2">View Deals & Attractions</a>
+                    <a href="index.html-3">View Gallery</a> 
+                    <a href="index.html-2">Book Now</a> 
+                </div>
+           
+            </div>
+           
+        </div>
+
+      
+    </div>
+        
+    </body>
+</html>
