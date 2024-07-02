@@ -1,0 +1,6 @@
+#back-image {
+    background-image: url(../images/chouyan\ logo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
