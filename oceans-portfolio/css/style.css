@@ -30,3 +30,39 @@ body {
 .basic-grid-gallery img {
     width: 100%;
 }
+
+#heading {
+    text-align: center;
+}
+
+#paragraph {
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    background-color: #000000;
+    padding-left: 400px;
+    gap:25px;
+    a{
+        display: flex;
+        text-align: center;
+        color: white;
+        color: #711bbd;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top:3px;
+        background-color: #bd1b9d;
+        padding-bottom:3px;
+        box-shadow: inset 0px 0px 10px rgb(46, 171, 100),
+        0px 0px 10px rgb(43, 64, 168);
+        color: aliceblue; 
+    }
+ 
+ }
+
+
+.color {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+}
