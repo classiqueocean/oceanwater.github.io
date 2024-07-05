@@ -45,6 +45,7 @@ body {
     padding-right: 10px;
     background-color: #000000;
     gap:30px;
+    margin-bottom: 25px;
     a{
         display: flex;
         text-align: center;
@@ -71,4 +72,33 @@ body {
 
 .brand-description {
     text-align: center;
+}
+
+#resume-header {
+    text-align: center;
+    h1{
+        text-shadow: 10px 10px 50px #bd1b9d;
+    }
+    
+}
+
+#body-2 {
+    background-color: rgb(232, 216, 194);
+}
+
+#resume-image {
+    text-align: center;
+    margin-top: 65px;
+    border: solid black;
+    border-width: 3px;
+
+}
+
+#back a {
+    color:#bd1b9d;
+    box-shadow: inset 0px 0px 10px #bd1b9d,
+        0px 0px 10px rgb(43, 64, 168);
+        color: #bd1b9d; 
+    margin-left: 25px;
+    margin-top: 20px;
 }
