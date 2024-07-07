@@ -39,10 +39,14 @@ body {
     text-align: center;
 }
 
+#brand-description {
+    text-align: center;
+}
+
 #navbar {
     display: flex;
     background-color: #000000;
-    padding-left: 400px;
+    padding-left: 850px;
     gap:25px;
     a{
         display: flex;
