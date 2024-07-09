@@ -45,22 +45,34 @@ body {
 
 #navbar {
     display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #000000;
+<<<<<<< HEAD
     padding-left: 850px;
     gap:25px;
+=======
+    gap:30px;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0px;
+>>>>>>> 031d00f6af85dbc31b61c8795fb1b0d5479ea2fd
     a{
         display: flex;
         text-align: center;
         color: white;
         color: #711bbd;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top:3px;
+        padding-left: 10px;
+        padding-right:10px;
+        padding-top:5px;
         background-color: #bd1b9d;
-        padding-bottom:3px;
+        padding-bottom:5px;
         box-shadow: inset 0px 0px 10px rgb(46, 171, 100),
         0px 0px 10px rgb(43, 64, 168);
         color: aliceblue; 
+        
     }
  
  }
@@ -69,4 +81,37 @@ body {
 .color {
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
+}
+
+#brand-description {
+    text-align: center;
+}
+
+#resume-header {
+    text-align: center;
+    h1{
+        text-shadow: 10px 10px 50px #bd1b9d;
+    }
+    
+}
+
+#body-2 {
+    background-color: rgb(232, 216, 194);
+}
+
+#resume-image {
+    text-align: center;
+    margin-top: 65px;
+    border: solid black;
+    border-width: 3px;
+
+}
+
+#back a {
+    color:#bd1b9d;
+    box-shadow: inset 0px 0px 10px #bd1b9d,
+        0px 0px 10px rgb(43, 64, 168);
+        color: #bd1b9d; 
+    margin-left: 25px;
+    margin-top: 20px;
 }
