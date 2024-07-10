@@ -39,6 +39,9 @@ img {
     img{
         box-shadow: -2px -2px 10px #157221;
     }
+    a{
+        margin: auto auto;
+    }
 }
 
 
@@ -110,6 +113,7 @@ h2 {
     border-radius: 10px;
     padding: 5px;
     margin: 10px;
+    margin-bottom: 80px;
     color: white;
     text-align: center;
     box-shadow: -2px -2px 5px rgba(26, 150, 140, 0.798);
@@ -135,6 +139,7 @@ h2 {
     a{
         display: block;
             text-decoration: none;
+            margin: auto auto;
             color: white;
             background-color: #11767f;
             padding: 10px;
@@ -170,7 +175,78 @@ h2 {
     }
 }
 
+h1, h2{
+    text-align: center;
+}
+
 #italic {
     text-align: center;
+}
+
+.card-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecba46df;
+    border: solid #737111;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    box-shadow: 4px 4px 5px #94480e;
+    transition: box-shadow 0.3s,
+    transform 1s;
+    h3{
+        font-weight: bold;
+        font-family: sans-serif;
+        text-decoration: underline;
+        text-shadow: -2px -4px 24px#640505;
+        transition: box-shadow 0.3s;
+    }
+  
+    img{
+        box-shadow: -2px -2px 10px #94480e;
+        border-radius: 18px;
+        
+    }
+    a{
+        display: block;
+            text-decoration: none;
+            color: black;
+            background-color: #7f5c11e2;
+            padding: 10px;
+            border: solid #640505;
+            border-radius: 18px;
+            text-align: center;
+            transition: background-color 0.5s;
+            font-size: 14px;
+            font-weight: bold;
+            
+}
+}
+
+.card-content3:hover {
+    background-color:#fff0a7df ;
+    box-shadow: none;
+    transform: rotate(360deg);
+    padding: 36px;
+    h3{
+        text-decoration: none;
+        text-shadow: 2px 5px 10px #b27d13df;
+        color: white;
+    }
+    a{
+        background-color:#fff0a7df;
+        &:hover {
+            box-shadow: 
+            0px 0px 20px 5px #723215,
+            inset 0px 0px 18px 5px #b27d13df;
+        }
+    }
+    img{
+        transform: scale(120%);
+    }
 }
 
