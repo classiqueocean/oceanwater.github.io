@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Fuzzy+Bubbles:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #db77e8, #f6b8f9);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border: solid white;
+}
+
+#hero-1 {
+    background-image: url(../images/Group\ 1.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #eb90a9;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 250px;
+    p{
+        margin-top: 230px;
+        font-size: 80px;
+        color: aliceblue;
+        border-bottom: solid white;
+        font-family: "Bubblegum Sans", sans-serif;
+    }
+}
+
+#name {
+    display: flex;
+    margin-left: 15px;
+    margin-right: auto;
+    color: #ec3838;
+    font-size: 30px;
+}
+
+#logo  {
+text-decoration: none;
+color: white;
+font-family: "Bubblegum Sans", sans-serif;
+h1{
+    margin: 0px;
+    margin-left: 36px;
+}
+}
+#logo-icon {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.button {
+    display: block;
+    color: white;
+    margin-right: 80px;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    padding: 55px 0px ;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.dropdown {
+    position:relative;
+}
+
+.dropdown .menu {
+    position: absolute;
+    background-color: #fae7fb;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-25px);
+    transition: opacity 0.5s,
+    visibility 0.5s, transform 0.5s;
+}
+
+.dropdown:hover .menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.menu {
+    a{
+        text-decoration: underline;
+        color: #db77e8;
+        &:hover{
+            text-decoration: none;
+            color: #f6b8f9;
+        }
+    }
+}
+
+#body-2 {
+    background-color:#f6b8f9;
+}
+
+.single-column {
+    width: 90vw;
+    margin: 0px auto;
+    background-color: #eb90a9;
+    margin-top: 100px;
+    .description {
+        margin-left: 36px;
+        font-family: "Fuzzy Bubbles", sans-serif;
+        color: white;
+    }
+    p{
+        text-align: center;
+        font-size: larger;
+    }
+    h3{
+        font-family: "Bubblegum Sans", sans-serif;
+    }
+    h2 {
+        font-family: "Bubblegum Sans", sans-serif;
+        color: white;
+        font-size: 36px;
+        border-bottom: solid white;
+        text-align: center;
+        text-shadow: -2px -4px 24px#640505;
+    }
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 6px 4px 15px #db77e8;
+    padding: 30px;
+    img{
+        width:100%;
+        box-shadow:4px 4px 10px #640505;
+       
+    }
+}
+
+.button {
+    display: flex;
+    
+}
+
+.button-2{
+    color: white;
+}
+
+.butons a {
+    display: block;
+    width: max-content;
+    margin: 0px auto;
+    background-color: #640505;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 44px;
+    padding-right: 44px;
+    box-shadow: 6px 4px 15px #640505;
+    border-radius: 20px;
+    &:hover {
+        
+    }
+}
+#adopt{
+    margin-top: 18px;
+}
+
+#pet-text {
+    background-color: #eb90a9;
+    p{
+        text-align: left;
+        font-family: "Fuzzy Bubbles", sans-serif;
+        padding: 24px;
+        color: white;
+    }
+}
+
+#details {
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+
+
+
