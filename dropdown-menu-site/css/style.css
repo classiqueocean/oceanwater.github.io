@@ -15,7 +15,15 @@ body {
     align-items: center;
     gap: 24px;
     border: solid white;
+    a:not(#logo) {
+        transition: transform 0.5s;
+        &:hover {
+            transform: scale(150%);
+        }
+    }
 }
+
+
 
 #hero-1 {
     background-image: url(../images/Group\ 1.jpg);
@@ -67,7 +75,8 @@ h1{
     font-family: "Fuzzy Bubbles", sans-serif;
     padding: 55px 0px ;
     &:hover{
-        text-decoration: none;
+        text-decoration: none
+        
     }
 }
 
@@ -84,7 +93,7 @@ h1{
     gap: 15px;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-25px);
+    transform: translateY(-25px) ;
     transition: opacity 0.5s,
     visibility 0.5s, transform 0.5s;
 }
@@ -194,6 +203,45 @@ h1{
 #details {
     margin-bottom: 48px;
     margin-top: 48px;
+}
+
+@media  screen and (max-width: 955px) {
+    #navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+      #logo  {
+        flex: 100%;
+        padding-top: 10px;
+      }
+      #logo-icon {
+        padding-top: 25px;
+      }
+      a {
+        margin: 0px;
+      }
+    }
+    #grid-layout {
+        grid-template-columns: 1fr;
+    }
+    #name {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .dropdown .menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hero-statement p {
+        font-size: 40px;
+        
+    }
+
+    #hero-1 {
+        background-size: cover;
+    }
+    
 }
 
 
