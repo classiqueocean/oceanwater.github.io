@@ -170,7 +170,11 @@ h1{
     box-shadow: 6px 4px 15px #640505;
     border-radius: 20px;
     &:hover {
-        
+        background-color: #ffffff;
+        color: #db77e8;
+        text-shadow: -2px -4px 10px #db77e8;
+        transform: scale(120%);
+        transition: transform 0.5s;
     }
 }
 #adopt{
