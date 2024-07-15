@@ -50,14 +50,12 @@ body {
     display: flex;
     margin-left: 15px;
     margin-right: auto;
-    color: #ec3838;
     font-size: 30px;
 }
 
 #logo  {
 text-decoration: none;
 color: white;
-font-family: "Bubblegum Sans", sans-serif;
 h1{
     margin: 0px;
     margin-left: 36px;

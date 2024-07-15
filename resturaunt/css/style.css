@@ -1,0 +1,95 @@
+@import url("https://use.typekit.net/tfy5som.css");
+@import url("https://use.typekit.net/hyq8bcr.css");
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: "lafleur-wide", sans-serif;
+}
+
+#logo{
+   text-decoration: none;
+}
+
+#logo-img {
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(180deg,#cda1f699, #d357a399 );
+}
+
+#name {
+    display: flex;
+    padding: 5px;
+    h2{
+        justify-content: center;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 20px;
+        color: #1ba0a2;
+        background-color: black;
+        padding: 3px;
+        
+    }
+}
+
+.dropdown {
+    position:relative;
+    
+}
+
+.dropdown .menu-button {
+    position: absolute;
+    background-color: #fae7fb;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-25px) ;
+    transition: opacity 0.5s,
+    visibility 0.5s, transform 0.5s;
+}
+
+.dropdown:hover .menu-button {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.button {
+    font-family: "ff-market-web", sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+    color: black;
+}
+
+.nav-l1, .nav-l2{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    gap: 50px;
+    a {
+        padding: 20px 0px;
+    }
+    a:hover {
+        text-decoration: none;
+        
+    }
+}
+
+
