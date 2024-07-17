@@ -26,6 +26,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 60px;
+    margin-top: 55px;
 }
 
 #event-name {
@@ -36,7 +37,7 @@ img{
     #h1-3 {
         color: #ffff00;
         font-size: 18px;
-        text-shadow: -2px -4px 24px#e20707;
+        text-shadow: -2px -4px 24px #ffff00;
         margin-top: 20px;
         margin-bottom: 0px;
     }
@@ -46,11 +47,14 @@ img{
         text-shadow: -2px -4px 24px#e20707;
         margin-bottom: 0px;
         margin-top: 0px;
+        background-color: #0000003a;
+        border-radius: 10px;
     }
     #h1-2 {
         color: #ffffff;
         text-shadow: -2px -4px 24px#e20707;
         margin-top: 5px;
+        text-decoration: underline;
     }
 }
 
@@ -82,7 +86,7 @@ img{
     justify-content: center;
     color: #ffffff;
     font-size: 36px;
-    text-shadow: -2px -4px 24px #e20707;
+    text-shadow: -2px -4px 24px #fffafa;
     text-align: center;
 }
 
@@ -91,6 +95,8 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #0000005d;
+    box-shadow: 4px 4px 15px #1a1a02;
 }
 
 #cta-buttons {
@@ -135,7 +141,6 @@ img{
 #event-time {
     color: #ffffff;
     font-size: 26px;
-    background-color: #0000005d;
     border-bottom: solid white;
     padding: 5px;
     text-align: center;
@@ -159,4 +164,21 @@ img{
     margin-bottom: 0px;
     font-size: 22px;
 }
+
+#questions {
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#team1img {
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px #360404;
+}
+
+#steelers {
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px #4e4e02;
+}
+
 
