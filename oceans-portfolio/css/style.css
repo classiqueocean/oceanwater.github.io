@@ -50,15 +50,12 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #000000;
-<<<<<<< HEAD
     padding-left: 850px;
     gap:25px;
-=======
     gap:30px;
     margin-bottom: 25px;
     position: sticky;
     top: 0px;
->>>>>>> 031d00f6af85dbc31b61c8795fb1b0d5479ea2fd
     a{
         display: flex;
         text-align: center;
