@@ -104,6 +104,7 @@ img{
         padding-right: 10px;
         font-size: 18px;
         border-radius: 10px;
+        box-shadow: 6px 4px 15px #ffff00;
         &:hover {
             background-color: #ffff00;
             color: #e20707;
@@ -120,12 +121,20 @@ img{
         padding-right: 10px;
         font-size: 18px;
         border-radius: 10px;
+        box-shadow: 6px 4px 15px #e20707;
         &:hover {
             background-color: #ffff00;
             color: #e20707;
-            box-shadow: 6px 4px 15px #ffff00;
+            box-shadow: 6px 4px 15px #e20707;
             text-decoration: none;
             transform: scale(120%);
         }
     }
+}
+
+#event-time {
+    color: #ffffff;
+    font-size: 25px;
+    background-color: #0000005d;
+    border-bottom: solid white;
 }
