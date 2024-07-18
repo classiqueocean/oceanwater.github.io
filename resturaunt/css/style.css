@@ -19,6 +19,12 @@ h2 {
     font-family: "lafleur-wide", sans-serif;
 }
 
+.single-column {
+    width: 90vw;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
 #logo{
    text-decoration: none;
 }
@@ -177,7 +183,6 @@ h2 {
    }
 }
 
-
 #footer {
     display: flex;
     gap: 150px;
@@ -210,8 +215,8 @@ h2 {
 
 .footer-content {
     margin-top: 20px;
-   
 }
+
 
 #footer-container .footer-content a {
     color: #1ba0a2;
@@ -219,6 +224,165 @@ h2 {
     padding-top: 10px;
     padding-bottom: 8px;
 }
+
+#body2 {
+    background-color: #1ba0a2;
+}
+
+#drinks img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow:-4px 2px 10px #cda1f6c2;
+}
+
+#entree img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 48px;
+    box-shadow:4px 2px 10px #dee454;
+    margin-bottom: 24px;
+}
+
+#body3 {
+    background: linear-gradient(-180deg, #1ba0a2, #034346);
+}
+
+#entree h3 {
+    color: #c7cd0c;
+    font-family: "ff-market-web", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 0px;
+    h3{
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+.gallery img, h3 {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   
+}
+
+#entree-title h1 {
+    text-align: center;
+    font-family: "lafleur-wide", sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: -2px -4px 24px #dee454;
+    margin-bottom: 60px;
+}
+
+.entree-2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.entree-2 a {
+    color: #000000;
+    text-shadow: -2px -4px 24px #dee454;
+    &:hover{
+        color: #cda1f6c2;
+        text-decoration: none;
+        transform: scale(150%);
+        transition: transform 0.5s;
+    }
+    
+}
+
+#featured-item #img-f {
+    width: 400px;
+    background-color: #240056af;
+    border-radius: 10px;
+    box-shadow:-4px 8px 15px #cda1f6c2;
+}
+
+
+#drinks-title h1 {
+    text-align: center;
+    font-family: "lafleur-wide", sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: -2px -4px 24px #dee454;
+    margin-bottom: 60px;
+}
+
+#drinks h3 {
+    color: #c7cd0c;
+    font-family: "ff-market-web", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 0px;
+    h3{
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+.drink-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#main-menu img {
+padding: 35px;
+width: 70%;
+margin-left: 420px;
+}
+
+#body4 {
+    background: linear-gradient(-180deg, #dee454, #797303)
+}
+
+.drink-5 h3 {
+    margin-left: 50px;
+}
+
+.drink-5 a {
+    color: #000000;
+    text-shadow: -2px -4px 24px #dee454;
+    &:hover {
+        color: #cda1f6c2;
+        text-decoration: none;
+        transform: scale(150%);
+        transition: transform 0.5s;
+    }
+}
+
+#featured-item {
+    display: flex;
+    justify-content: center;
+}
+
+#homep {
+    width: 50%;
+}
+#featured-item2 a {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 25px;
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    
+}
+
+
+
+
 
 
 
