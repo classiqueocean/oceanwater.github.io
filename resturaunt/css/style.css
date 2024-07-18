@@ -19,6 +19,12 @@ h2 {
     font-family: "lafleur-wide", sans-serif;
 }
 
+.single-column {
+    width: 90vw;
+    max-width: 1440px;
+    margin: 0px auto
+}
+
 #logo{
    text-decoration: none;
 }
@@ -211,9 +217,101 @@ h2 {
     margin-top: 20px;
 }
 
+
 #footer-container .footer-content a {
     color: #1ba0a2;
     display: block;
     padding-top: 10px;
     padding-bottom: 8px;
 }
+
+#body2 {
+    background-color: #1ba0a2;
+}
+
+#drinks img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow:-4px 2px 10px #cda1f6c2;
+}
+
+#entree img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 48px;
+    box-shadow:4px 2px 10px #dee454;
+    margin-bottom: 24px;
+}
+
+#body3 {
+    background: linear-gradient(-180deg#1ba0a2, #0b5456);
+}
+
+#entree h3 {
+    color: #dee454;
+    font-family: "ff-market-web", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 0px;
+    h3{
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+.gallery img, h3 {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   
+}
+
+#entree-title h1 {
+    text-align: center;
+    font-family: "lafleur-wide", sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: -2px -4px 24px #dee454;
+    margin-bottom: 60px;
+}
+
+.entree-2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#featured-item #img-f {
+    width: 400px;
+
+}
+
+#drinks-title h1 {
+    text-align: center;
+    font-family: "lafleur-wide", sans-serif;
+    font-size: 100px;
+    text-decoration: underline;
+    text-shadow: -2px -4px 24px #dee454;
+    margin-bottom: 60px;
+}
+
+#drinks h3 {
+    color: #dee454;
+    font-family: "ff-market-web", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 0px;
+    h3{
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+
+
+
+
