@@ -244,13 +244,13 @@ h2 {
 }
 
 #body3 {
-    background: linear-gradient(-180deg#1ba0a2, #0b5456);
+    background: linear-gradient(-180deg, #1ba0a2, #034346);
 }
 
 #entree h3 {
-    color: #dee454;
+    color: #c7cd0c;
     font-family: "ff-market-web", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     padding-bottom: 0px;
     h3{
@@ -279,7 +279,7 @@ h2 {
 
 .entree-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
@@ -298,9 +298,9 @@ h2 {
 }
 
 #drinks h3 {
-    color: #dee454;
+    color: #c7cd0c;
     font-family: "ff-market-web", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     padding-bottom: 0px;
     h3{
@@ -309,6 +309,16 @@ h2 {
         margin-bottom: 10px;
         
     }
+}
+
+#main-menu img {
+padding: 35px;
+width: 70%;
+margin-left: 420px;
+}
+
+#body4 {
+    background: linear-gradient(-180deg, #dee454, #797303)
 }
 
 
