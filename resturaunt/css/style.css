@@ -177,6 +177,7 @@ h2 {
    }
 }
 
+
 #footer {
     display: flex;
     gap: 150px;
@@ -209,6 +210,7 @@ h2 {
 
 .footer-content {
     margin-top: 20px;
+   
 }
 
 #footer-container .footer-content a {
@@ -217,3 +219,6 @@ h2 {
     padding-top: 10px;
     padding-bottom: 8px;
 }
+
+
+
