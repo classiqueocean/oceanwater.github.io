@@ -22,7 +22,7 @@ h2 {
 .single-column {
     width: 90vw;
     max-width: 1440px;
-    margin: 0px auto
+    margin: 0px auto;
 }
 
 #logo{
@@ -283,10 +283,25 @@ h2 {
     
 }
 
+.entree-2 a {
+    color: #000000;
+    text-shadow: -2px -4px 24px #dee454;
+    &:hover{
+        color: #cda1f6c2;
+        text-decoration: none;
+        transform: scale(150%);
+        transition: transform 0.5s;
+    }
+    
+}
+
 #featured-item #img-f {
     width: 400px;
-
+    background-color: #240056af;
+    border-radius: 10px;
+    box-shadow:-4px 8px 15px #cda1f6c2;
 }
+
 
 #drinks-title h1 {
     text-align: center;
@@ -311,6 +326,13 @@ h2 {
     }
 }
 
+.drink-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #main-menu img {
 padding: 35px;
 width: 70%;
@@ -320,6 +342,45 @@ margin-left: 420px;
 #body4 {
     background: linear-gradient(-180deg, #dee454, #797303)
 }
+
+.drink-5 h3 {
+    margin-left: 50px;
+}
+
+.drink-5 a {
+    color: #000000;
+    text-shadow: -2px -4px 24px #dee454;
+    &:hover {
+        color: #cda1f6c2;
+        text-decoration: none;
+        transform: scale(150%);
+        transition: transform 0.5s;
+    }
+}
+
+#featured-item {
+    display: flex;
+    justify-content: center;
+}
+
+#homep {
+    width: 50%;
+}
+#featured-item2 a {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 25px;
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    
+}
+
+
 
 
 
