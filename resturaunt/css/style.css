@@ -424,6 +424,22 @@ h2 {
     margin-top: 80px;
 }
 
+#event-img {
+    width: 65%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 65px;
+    margin-top: 65px;
+}
+
+#calender {
+    border-radius: 10px;
+}
+
+#body6 {
+    background-color: #240056af;
+}
+
 @media screen and (max-width: 428px) {
     
 }
