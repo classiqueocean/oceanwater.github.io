@@ -460,7 +460,7 @@ h2 {
         text-align: center;
     }
     #hero-image {
-        background-image: url(../images/Group\ 22.png);
+        background-image: url(../images/Group\ 23.png);
         height: 50vh;
         background-size: cover;
         background-position: center;
@@ -498,7 +498,7 @@ h2 {
     margin-top: 60px;
    }
    #calender {
-    width: 600px;
+    width: 300px;
     overflow: x scroll;
    }
 }
